@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Tulus Futsal Merch</title>
+    <link href=" https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="home">
+        <header class="header" id="product">
+            <div class="hero">
+                <h2 class="heading"> Tulus Futsal Merch Shop</h2>
+                <p class="sub-heading">T-shirt</p>
+            </div>
+            <div class="features features-1">
+                <h4 class="price">IDR 150K</h4>
+                <p class="item">Design Player</p>
+            </div>
+            <div class="features features-2">
+                <h4 class="price">IDK 150K</h4>
+                <p class="item">Design Keeper</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h4>Tulus Futsal Merch</h4>
+            </div>
+            <ul class=" menu-list">
+                <li class=" nav-item">
+                    <a class="nav-link" href="#home">home</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link" href="#product">product</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="services" id="about">
+            <h2>About</h2>
+            <div class="service">
+                <div class="fa-solid fa-futbol"></div>
+                <h3>Fun Games</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, facere!</p>
+            </div>
+
+            <div class="service">
+                <div class="fa-solid fa-calendar-plus"> </div>
+                <h3>Turnament Event</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, facere!</p>
+            </div>
+
+            <div class="service">
+                <div class="fa-solid fa-podcast"></div>
+                <h3>Podcast</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, facere!</p>
+            </div>
+
+            <div class="service">
+                <div class="fa-solid fa-tshirt"></div>
+                <h3>Merch</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, facere!</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+
+            <img src="https://source.unsplash.com/random/201x201" alt=""><img
+                src="https://source.unsplash.com/random/202x202" alt=""><img
+                src="https://source.unsplash.com/random/203x203" alt=""><img
+                src="https://source.unsplash.com/random/204x204" alt=""><img
+                src="https://source.unsplash.com/random/205x205" alt=""><img
+                src="https://source.unsplash.com/random/206x206" alt=""><img
+                src="https://source.unsplash.com/random/207x207" alt=""><img
+                src="https://source.unsplash.com/random/208x208" alt=""><img
+                src="https://source.unsplash.com/random/209x209" alt=""><img
+                src="https://source.unsplash.com/random/2010x2010" alt="">
+
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+
+    <!-- <section class="footer">
+        <div class="tooltip">Facebook</div>
+        <span class="fab-fa-facebook"></span>
+    </section> -->
+</body>
+
+</html>

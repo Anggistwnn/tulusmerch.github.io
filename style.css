@@ -235,13 +235,32 @@ body {
 }
 
 /* socmed icon */
+/* .marquee {
+    width: 80vw;
+    height: 20vw;
+    display: flex;
+    overflow: hidden;
+    animation: scrolling 4s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(60vw);
+    }
+
+    100% {
+        transform: translateX(-160vw);
+    }
+
+} */
 
 .socmed {
-    padding: 40px;
+    padding: 50px 0;
     display: grid;
     height: 100%;
     width: 100%;
     place-items: center;
+
     /* background: linear-gradient(315deg, #ecf0f1 0%, #d7e1ec 74%); */
 }
 
@@ -250,7 +269,7 @@ body {
 }
 
 .wrapper .icon {
-    margin: 0px 20px;
+    margin: 0 50px;
     text-align: center;
     cursor: pointer;
     display: flex;
@@ -321,7 +340,35 @@ body {
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
 
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip:before {
+    background-color: #2980b9;
+}
 
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip:before {
+    background-color: #3498db;
+}
+
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip:before {
+    background-color: #c0392b;
+}
+
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip:before {
+    background-color: #c71585;
+}
+
+.wrapper .whatsapp:hover span,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip:before {
+    background-color: #27ae60;
+}
 
 /* responsive brake Point  */
 
@@ -399,5 +446,10 @@ body {
             'hero'
             'features-1'
             'features-2';
+    }
+
+    .wrapper .icon {
+        flex-direction: column;
+        margin: 10px;
     }
 }

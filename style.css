@@ -449,7 +449,6 @@ body {
     }
 
     .wrapper .icon {
-        flex-direction: column;
-        margin: 10px;
+        margin: 7px;
     }
 }

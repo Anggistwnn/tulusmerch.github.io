@@ -370,6 +370,12 @@ body {
     background-color: #27ae60;
 }
 
+/* footer */
+footer {
+    text-align: center;
+    margin-top: 90px;
+}
+
 /* responsive brake Point  */
 
 @media (max-width: 1024px) {
@@ -438,7 +444,7 @@ body {
 
 @media(max-width: 600px) {
     body {
-        margin: 15px;
+        margin: 10px;
     }
 
     .header {

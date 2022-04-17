@@ -324,7 +324,7 @@ body {
     position: absolute;
     content: "";
     height: 15px;
-    width: 15px;
+    /* width: ; */
     background: #fff;
     left: 50%;
     bottom: -6;
@@ -457,4 +457,11 @@ footer {
     .wrapper .icon {
         margin: 5px;
     }
+
+    .wrapper .icon span {
+        /* line-height: 40px; */
+        width: 50px;
+    }
+
+
 }

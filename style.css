@@ -370,6 +370,12 @@ body {
     background-color: #27ae60;
 }
 
+.wrapper .github:hover span,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip:before {
+    background-color: #000;
+}
+
 /* footer */
 footer {
     text-align: center;
@@ -460,7 +466,8 @@ footer {
 
     .wrapper .icon span {
         /* line-height: 40px; */
-        width: 50px;
+        width: 40px;
+
     }
 
 

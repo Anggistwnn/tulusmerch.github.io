@@ -47,7 +47,7 @@
                 <span></span>
             </div>
             <div class="brand">
-                <h4>Tulus Futsal Merch</h4>
+                <h4>Tulus Futsal <span class="typing"> Merch </span></h4>
             </div>
             <ul class=" menu-list">
                 <li class=" nav-item">
@@ -169,6 +169,9 @@
             <p class="text-center">&copy;2022 Anggistwnn, All Right Reserved.</p>
         </footer>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        referrerpolicy="no-referrer"></script>
     <script>
         const menuToggle = document.querySelector('.menu-toggle');
         const nav = document.querySelector('nav ul');
@@ -176,6 +179,13 @@
         menuToggle.addEventListener('click', function () {
             nav.classList.toggle('slide');
         });
+
+        var typed = new Typed(".typing", {
+            strings: ["Merch", "About", "Gallery", "Fun Games", "Podcast", "Turnament Event"],
+            typeSpeed: 100,
+            BackSpeed: 60,
+            loop: true
+        })
     </script>
 
 </body>
